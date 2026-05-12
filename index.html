@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="kolp's GitHub personal homepage: AI systems, autonomous robotics, accelerator kernels, RISC-V, and practical software projects."
+    />
+    <title>kolp | GitHub Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="orbit orbit-one" aria-hidden="true"></div>
+    <div class="orbit orbit-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="https://github.com/kolp323" target="_blank" rel="noreferrer">
+        <span class="brand-mark">k</span>
+        <span>
+          <strong>kolp</strong>
+          <small>UCAS · Beijing</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="Page navigation">
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="profile">
+        <div class="hero-copy reveal profile-main-card">
+          <p class="eyebrow">Personal profile</p>
+          <div class="profile-hero-head">
+            <span class="avatar-mark large">k</span>
+            <div>
+              <h1>kolp</h1>
+              <p>Computer science student at UCAS · Beijing, China</p>
+            </div>
+          </div>
+          <p class="hero-text">
+            Hi! I'm Kolp. I like building things that connect software, AI, and real-world systems. Most of my
+            GitHub work comes from course projects, research practice, and hands-on engineering experiments.
+          </p>
+          <dl class="profile-list profile-list-main">
+            <div>
+              <dt>Name</dt>
+              <dd>kolp</dd>
+            </div>
+            <div>
+              <dt>Academic home</dt>
+              <dd>University of Chinese Academy of Sciences</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Beijing, China</dd>
+            </div>
+            <div>
+              <dt>GitHub</dt>
+              <dd>github.com/kolp323</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="signal-card reveal homepage-card" aria-label="Homepage overview">
+          <div class="signal-topline">
+            <span>GitHub homepage</span>
+            <span class="pulse-dot"></span>
+          </div>
+          <h2>Research interests</h2>
+          <p>
+            I am currently interested in embodied intelligence, large language models, computer vision, 3D perception,
+            multimodal models, and AI systems. The project board below collects related experiments and engineering work.
+          </p>
+          <div class="hero-actions compact-actions">
+            <a class="primary-action" href="https://github.com/kolp323" target="_blank" rel="noreferrer">
+              View GitHub profile
+            </a>
+            <a class="secondary-action" href="#projects">Explore projects</a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="metrics reveal" aria-label="Profile facts">
+        <article>
+          <span class="metric-value">19</span>
+          <span class="metric-label">public repositories</span>
+        </article>
+        <article>
+          <span class="metric-value">UCAS</span>
+          <span class="metric-label">academic home</span>
+        </article>
+        <article>
+          <span class="metric-value">8</span>
+          <span class="metric-label">featured projects</span>
+        </article>
+      </section>
+
+      <section class="project-section" id="projects">
+        <div class="section-heading reveal">
+          <div class="section-title-block">
+            <p class="eyebrow">Selected work</p>
+            <h2>Project board</h2>
+          </div>
+          <p>
+            A compact map of projects across learning-based perception, robot autonomy, accelerator kernels,
+            RISC-V systems, FPGA design, and practical software engineering.
+          </p>
+        </div>
+
+        <div class="filters reveal" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="ai">AI</button>
+          <button class="filter" data-filter="robotics">Robotics</button>
+          <button class="filter" data-filter="systems">Systems</button>
+          <button class="filter" data-filter="tools">Tools</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="ai" style="--accent: #ef4444">
+            <div class="card-index">01</div>
+            <p class="card-kicker">Medical AI · Jupyter</p>
+            <h3>ReSMOTE-DR</h3>
+            <p>
+              Diabetic retinopathy severity grading experiment using EfficientNet-B4, feature-level SMOTE,
+              threshold search, and ensemble inference.
+            </p>
+            <div class="tags">
+              <span>SMOTE</span><span>MTL</span><span>Ensemble</span>
+            </div>
+            <a href="https://github.com/kolp323/ReSMOTE-DR" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+
+          <article class="project-card wide reveal" data-category="robotics" style="--accent: #38bdf8">
+            <div class="card-index">02</div>
+            <p class="card-kicker">Autonomous vehicle · ROS 2</p>
+            <h3>Apex-ROS2</h3>
+            <p>
+              ROS 2 Humble intelligent vehicle stack integrating chassis control, Livox MID360, FAST-LIO,
+              Nav2, YOLOv8, BEV obstacle processing, mission management, and velocity arbitration.
+            </p>
+            <div class="tags">
+              <span>Navigation</span><span>ROS 2 Humble</span><span>Nav2</span><span>BEV</span><span>FAST-LIO</span><span>YOLOv8</span>
+            </div>
+            <a href="https://github.com/kolp323/Apex-ROS2" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+
+          <article class="project-card reveal" data-category="ai" style="--accent: #f59e0b">
+            <div class="card-index">03</div>
+            <p class="card-kicker">NLP · Personalization</p>
+            <h3>Personalized-News-Headline-Generation</h3>
+            <p>
+              Personalized news headline generation project for AI coursework, combining model experiments,
+              analysis artifacts, and report materials.
+            </p>
+            <div class="tags">
+              <span>NLP</span><span>Generation</span><span>Python</span>
+            </div>
+            <a href="https://github.com/kolp323/Personalized-News-Headline-Generation" target="_blank" rel="noreferrer">
+              Open repository
+            </a>
+          </article>
+
+          <article class="project-card reveal" data-category="tools" style="--accent: #a78bfa">
+            <div class="card-index">04</div>
+            <p class="card-kicker">Productivity · OCR</p>
+            <h3>ClipOCR</h3>
+            <p>
+              Lightweight Windows utility that converts image OCR output into Markdown, designed for quick
+              note-taking and document extraction workflows.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>OCR</span><span>Markdown</span>
+            </div>
+            <a href="https://github.com/kolp323/ClipOCR" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+
+          <article class="project-card reveal" data-category="systems" style="--accent: #22c55e">
+            <div class="card-index">05</div>
+            <p class="card-kicker">Accelerator · MLU</p>
+            <h3>Cambricon-MLU-Kernel-Labs</h3>
+            <p>
+              Cambricon MLU experiments covering a PyTorch custom sigmoid operator and a Bang C matrix
+              multiplication optimization ladder.
+            </p>
+            <div class="tags">
+              <span>Cambricon MLU</span><span>Bang C</span><span>PyTorch</span>
+            </div>
+            <a href="https://github.com/kolp323/Cambricon-MLU-Kernel-Labs" target="_blank" rel="noreferrer">
+              Open repository
+            </a>
+          </article>
+
+          <article class="project-card wide reveal" data-category="systems" style="--accent: #fb7185">
+            <div class="card-index">06</div>
+            <p class="card-kicker">Kernel · RISC-V</p>
+            <h3>RISC-V-QEMU-Kernel</h3>
+            <p>
+              Teaching-oriented RISC-V kernel for QEMU with boot flow, scheduling, memory management,
+              system calls, tests, and debug workflows.
+            </p>
+            <div class="tags">
+              <span>C</span><span>Assembly</span><span>QEMU</span><span>Kernel</span>
+            </div>
+            <a href="https://github.com/kolp323/RISC-V-QEMU-Kernel" target="_blank" rel="noreferrer">
+              Open repository
+            </a>
+          </article>
+
+          <article class="project-card reveal" data-category="systems" style="--accent: #eab308">
+            <div class="card-index">07</div>
+            <p class="card-kicker">RTL · FPGA</p>
+            <h3>RISC-V32-CPU-FPGA</h3>
+            <p>
+              Verilog RISC-V32 CPU project with RTL modules, simulation harnesses, Vivado flow files,
+              benchmark workloads, and FPGA-oriented validation.
+            </p>
+            <div class="tags">
+              <span>RISC-V32 CPU</span><span>Verilog</span><span>Vivado</span><span>FPGA</span>
+            </div>
+            <a href="https://github.com/kolp323/RISC-V32-CPU-FPGA" target="_blank" rel="noreferrer">
+              Open repository
+            </a>
+          </article>
+
+          <article class="project-card reveal" data-category="tools" style="--accent: #14b8a6">
+            <div class="card-index">08</div>
+            <p class="card-kicker">C++ systems · Ticketing</p>
+            <h3>m12306</h3>
+            <p>
+              C++ ticketing-system project inspired by 12306, with backend logic, data handling, scripting,
+              and a small web-facing surface.
+            </p>
+            <div class="tags">
+              <span>PostgreSQL</span><span>C++</span><span>CGI</span>
+            </div>
+            <a href="https://github.com/kolp323/m12306" target="_blank" rel="noreferrer">Open repository</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="stack-section reveal" id="stack">
+        <div>
+          <p class="eyebrow">Operating range</p>
+          <h2>Tools and topics behind projects.</h2>
+        </div>
+        <div class="stack-list" aria-label="Technology stack">
+          <div class="stack-row">
+            <span>Python</span>
+            <span>C/C++</span>
+            <span>Verilog</span>
+            <span>RISC-V</span>
+          </div>
+          <div class="stack-row">
+            <span>PyTorch</span>
+            <span>OpenCV</span>
+            <span>Open3D</span>
+            <span>ROS</span>
+          </div>
+          <div class="stack-row">
+            <span>NLP</span>
+            <span>OCR</span>
+            <span>Cambricon MLU</span>
+            <span>FPGA</span>
+            <span>QEMU</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Selected projects, notes, and research interests from my GitHub profile.</span>
+      <a href="https://github.com/kolp323" target="_blank" rel="noreferrer">github.com/kolp323</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
